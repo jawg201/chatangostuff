@@ -1,28 +1,35 @@
 <html>
 <head>
-<script src="jquery-3.3.1.min.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
 $(document).ready(function(){
-    $(“.aboutMe”).click(function(){
-        $(“#contentArea”).html(“<p>A little about me…</p>”);
-});
 
+	$(“.aboutMe”).click(function(){
+		$(“#contentArea”).html(“<p>A little about me…</p>”);
+	});
+		
 	$(“.sickSkills”).click(function(){
-	 $(”#contentArea”).html(“<p>Some of my sick nunchaku skills..</p>”);	
-});
-
+		$(”#contentArea”).html(“<p>Some of my sick nunchaku skills..</p>”);	
+ 	});
+	
 	$(“.hobbies”).click(function(){
-	 $(“#contentArea”).html(“<p>A few.. hobbies of mine..</p>”);
-});
+		$(“#contentArea”).html(“<p>A few.. hobbies of mine..</p>”);
+	});
+
 
 	$(“.contactMe”).click(function(){
-	 $(”#contentArea”).html(“<p>Wanna talk my buddy pals?</p>”);	
-});
+		$(”#contentArea”).html(“<p>Wanna talk my buddy pals?</p>”);	
+	});
+
 
 	$(“.randomStuff”).click(function(){
-	 $(“#contentArea”).html(“<p>Just some other things my dude..</p>”);
-});
+		$(“#contentArea”).html(“<p>Just some other things my dude..</p>”);
+	});
+
 });
 </script>
+	
 </head>
 
 <body>
