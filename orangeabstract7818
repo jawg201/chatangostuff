@@ -1,0 +1,78 @@
+<html>
+<head>
+<script src="jquery-3.3.1.min.js">
+$(document).ready(function(){
+    $(“.aboutMe”).click(function(){
+        $(“#contentArea”).html(“<p>A little about me…</p>”);
+});
+
+	$(“.sickSkills”).click(function(){
+	 $(”#contentArea”).html(“<p>Some of my sick nunchaku skills..</p>”);	
+});
+
+	$(“.hobbies”).click(function(){
+	 $(“#contentArea”).html(“<p>A few.. hobbies of mine..</p>”);
+});
+
+	$(“.contactMe”).click(function(){
+	 $(”#contentArea”).html(“<p>Wanna talk my buddy pals?</p>”);	
+});
+
+	$(“.randomStuff”).click(function(){
+	 $(“#contentArea”).html(“<p>Just some other things my dude..</p>”);
+});
+});
+</script>
+</head>
+
+<body>
+<div style="padding:5px; position:fixed; top:0px; left:0px; width:100%; border-bottom: solid 9px  #8F3038; height:800px;">
+
+<!--TOP BAR WITH ACCOUNT INFORMATION-->
+<ul style="list-style-type:none;">
+
+<li style="float:left; text-align:center; width:17%; min-width: 160px;  padding:0px 20px; border-right:solid 2px #333; margin-right:5px;"><font style="font-size:14pt; color:#CCC;">Spaceninja1221201</font><br /><p style="border-top: solid 2px #1a1a1a; margin:0px; color:#808080; font-family:Myanmar Sangam MN;">S K Y P E</p></li>
+
+<li style="float:left; text-align:center; width:17%; min-width: 120px; padding:0px 20px; border-right:solid 2px #333; margin-right:5px;"><font style="font-size:14pt; color:#CCC;">3602 1791 5153</font><br /><p style="border-top: solid 2px #1a1a1a; margin:0px; color:#808080; font-family:Myanmar Sangam MN;">T R A I N E R  C O D E</p></li>
+
+<li style="float:left; text-align:center; width:17%; min-width: 120px; padding:0px 20px; border-right:solid 2px #333; margin-right:5px;"><font style="font-size:14pt; color:#CCC;">JustAWhiteGuyx</font><br /><p style="border-top: solid 2px #1a1a1a; margin:0px;color:#808080; font-family:Myanmar Sangam MN;">S N A P C H A T</p></li>
+
+<li style="font-family:Noteworthy; font-size:16pt; float:left; width: 35%; padding:0px 20px; margin-right:5px; color:#999 !important;">WHITEFANG1221201.CHATANGO.COM<br /><font color="#FFF">FEEL FREE TO ADD ME, SKYPE ME, OR JUST MESSAGE!</font></p></li></ul>
+
+
+<ul style="position: fixed;bottom: 70px; left:75px; list-style-type: none; font-size: 24.7pt; font-family: PortagoITC TT;">
+<li style="float:left; margin-right:8px;">
+<a href="#" class="aboutMe" style="color:rgba(255,255,255,0.66);text-decoration:none !important;">ABOUT ME<br /> <img src="http://i250.photobucket.com/albums/gg267/Sasuke995/shadow-abt.png" style="position:relative;top: -23px;left: -2px;">
+</a></li>
+ 
+<li style="float:left; margin-right:8px;">
+<a href="#" class="sickSkills" style="color:rgba(255,255,255,0.66);text-decoration:none !important;">SICK SKILLS<br /> <img src="http://i250.photobucket.com/albums/gg267/Sasuke995/skills-shadow.png" style="position:relative;top: -23px;left: -2px;">
+</a></li>
+
+<li style="float:left; margin-right:8px;">
+<a href="#" class="hobbies" style="color:rgba(255,255,255,0.66);text-decoration:none !important;">HOBBIES<br /> <img src="http://i250.photobucket.com/albums/gg267/Sasuke995/hobbies-shadow.png" style="position:relative;top: -23px;width: 91px;">
+</a></li>
+
+<li style="float:left; margin-right:8px;">
+<a href="#" class="randomStuff" style="color:rgba(255,255,255,0.66);text-decoration:none !important;">RANDOM STUFF<br /> <img src="http://i250.photobucket.com/albums/gg267/Sasuke995/stuff-shadow.png" style="position:relative;top: -23px;left: -2px; width: 166px;">
+</a></li>
+
+<li style="float:left; margin-right:8px;">
+<a href="#" class="contactMe" style="color:rgba(255,255,255,0.66);text-decoration:none !important;">CONTACT ME<br /> <img src="http://i250.photobucket.com/albums/gg267/Sasuke995/contact-shadow.png" style="position:relative;top: -23px;width: 134px;">
+</a></li>
+</ul>
+
+<!--BOTTOM RIGHT IMAGE-->
+<img src="http://i250.photobucket.com/albums/gg267/Sasuke995/corner-branding-chatange.png" style="position:fixed; bottom:-10px; right:10px; z-index:10;" />
+</div>
+
+<!--CONTENT AREA-->
+<div id="contentArea" style="position:fixed; left:86px; bottom:230px; padding:0px 5px; width:46%; min-width:160px; background-color:rgba(101,24,53,0.73);height:480px; font-family:SignPainter; font-size:15pt; color:#B3B3B3;">
+<h5 style="position: relative;top: -100px;left: -40px;font-size: 29pt;width: 539px;display: block;margin-bottom: -150px;padding-bottom: 54px; transform: rotate(-6deg)">Welcome to my fancy shmancy profile page! Click a link and learn a little about me!</h5>
+
+<p>Test text going right the frig in here, hopefully this works! bla bla bla bla bla! YEET</p>
+
+<img src="http://i250.photobucket.com/albums/gg267/Sasuke995/firefox-chatango.png" style="position:relative; left:-82px; bottom:-149px;" />
+</div>
+</body>
+</html>
